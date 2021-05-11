@@ -31,10 +31,10 @@ public class CarService {
     }
 
     public List<String> getActiveCars() {
-        // hämtar alla Foods som vi kan laga
+        // hämtar alla Cars som har försäkring
         List<Car> activeCar = repository.findCarBy(true);
 
-        // returnerar endast Food namnen i en lista
+        // returnerar endast Car namnen i en lista
         return activeCar.stream()
                 .map(Car::getName)
                 .collect(Collectors.toList());
