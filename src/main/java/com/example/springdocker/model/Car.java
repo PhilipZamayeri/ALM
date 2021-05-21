@@ -18,5 +18,5 @@ public class Car {
     String id;
     String name;
     boolean haveInsurance;
-    boolean isRunnable;
+    boolean runnable;
 }

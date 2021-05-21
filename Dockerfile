@@ -1,6 +1,6 @@
 FROM adoptopenjdk/openjdk11:alpine-jre
 
-EXPOSE 8085
+EXPOSE 8080
 
 ARG JAR_FILE=target/*.jar
 

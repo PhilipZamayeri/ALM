@@ -15,11 +15,3 @@ services:
       - 8081:8081
     depends_on:
       - mongo
-
-#  myapp:
-#    build: .
-#    ports:
-#      - 8085:8080
-#    depends_on:
-#      - mongo
-
