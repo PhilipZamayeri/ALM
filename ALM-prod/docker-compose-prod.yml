@@ -17,7 +17,7 @@ services:
       - mongo
 
   myapp:
-    image: philipzdocker/my-app:latest
+    image: ${{ secrets.DOCKERHUB_USERNAME }}/my-app:latest
     ports:
       - 8080:8080
     environment:
