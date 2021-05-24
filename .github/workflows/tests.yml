@@ -17,8 +17,9 @@ jobs:
       - name: Setup Java JDK 11
         uses: actions/setup-java@v2
         with:
-          java-version: '11'
           distribution: 'adopts'
+          java-version: '11'
+
 
       - name: Build Jar
         run: mvn test
